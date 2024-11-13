@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import ThemeToggle from "./components/themeToggle";
+import ItemList from "./components/itemList";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <ItemList />
+      <ThemeToggle />
+    </div>
+  );
+};
 
-export default App
+export default App;
