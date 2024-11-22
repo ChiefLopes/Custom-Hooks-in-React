@@ -12,7 +12,7 @@ const ItemList = () => {
         ))}
 
         <p>{capitalize("tread")}</p>
-        <p>{capitalize(helo)}</p>
+        <p>{capitalize("tread")}</p>
       </ul>
     </div>
   );
